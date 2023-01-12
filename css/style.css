@@ -1,0 +1,503 @@
+ *  img {
+    border-radius: 12px;
+    box-shadow: darkred;
+ }
+html,body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #474747;
+}
+h1,h2,h3,h4,h5,h6, .title {
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+h1 {
+    font-size: 1.7rem;
+}
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+h6{
+    color:#bab9b9 ;
+    font-size: 0.8em;
+}
+p {
+    margin: 0.5em 0;
+    line-height: 1.3;
+}
+.fixed-width{
+	width: 100%;
+	margin: 0 auto;
+    max-width: 950px;
+}
+.clear-fix:before,
+.clear-fix:after {
+    content: " ";
+    display: table;
+}
+.clear-fix:after {
+    clear: both;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+
+}
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.title {
+	font-weight: bold;
+	color: #474747;
+}
+.div-fill{
+    background-color:#f4f4f4 ;
+}
+/*===================
+		header
+===================*/
+.top-header{
+	border: solid;
+	border-color: #e2e2e2;
+}
+.header2{
+	height: 139px;
+	text-transform: uppercase;
+}
+.header2 img {
+	float: left;
+	height: 139px;
+
+}
+.header2 nav {
+	float: right;
+	margin-top: 40px;
+}
+.header2 nav em{
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #474747;
+}
+.header2 nav li {
+	float: left;
+	margin-right: 40px;
+	color: #b8b8b8;
+    font-size: 0.8em;
+}
+.header2 nav li:last-child{
+	margin-right: 0;
+
+}
+
+/*===============
+ mains image 
+ ==============*/
+ .m-image{
+ 	width: 960px;
+ 	height: 450px;
+ }
+ .mains-image{
+ 	background-color: #f6f6f6;
+ }
+ .mains-image figcaption {
+ 	margin-left: 20px;
+ }
+ /*=============
+     claims
+ ============*/
+ .w-claims{
+ 	padding-bottom: 4em;
+ }
+ .claims{
+ 	width: 30%;
+ 	float: left;
+ 	margin-right: 5%;
+ 	margin-top: 10px;
+ 	display: block;
+ }
+ .claims:last-child{
+ 	margin-right: 0;
+ }
+ .claims header i {
+ 	  font-size: 2.5rem;
+        font-weight: bold;
+        color: #9a9a9a;
+        float: left;
+        width: 25%;
+ }
+ .claims header h2{
+ 	width: 75%;
+ 	float: left;
+
+ }
+ .sf{
+ 	font-weight: bold;
+ 	font-size: 0.8em;
+ 	color: black;
+ }
+ /*==============
+      portfolio
+  ============*/
+ .portfolio{
+	position: relative;
+ 	}
+ .portfolio::before{
+ 	content: " ";
+ 	display: block;
+ 	background: url(../image/pattern.png) left top repeat-x;
+ 	height: 27px;
+ 	margin-bottom: 2em;
+ 	}
+.title-wrapper{
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+
+	}
+.title-wrapper h2{
+	display: inline;
+	background-color: #fff;
+	padding: 0.8em;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 27px;
+
+ 	}
+ .p-work{
+ 	 float: left;
+    width: 22%;
+    margin-right: 4%;
+	 	
+	 }
+.p-work:last-child {
+        margin-right: 0;
+    }
+    .p-work img{
+    	height: 125px;
+    }
+
+    /*============
+    	footer
+    ============*/
+    .footer::before{
+    	content: "";
+    	display: block;
+    	background: url(../image/pattern.png)left top repeat-x;
+    	height: 4px;
+    	margin-top: 66px;
+
+    }
+    .footer{
+    	background-color: #f4f4f4;
+    	color: #9b9b9b;
+    	font-size: 0.8rem;
+    	height: 70px;
+    	display: block;
+    }
+    .copyright{
+    	float: left;
+    	
+    }
+    .credits{
+    	float: right;
+    	
+    }
+    .f-content{
+    	padding: 1em 0;
+    }
+    /*====================================================================================
+    										ABOUT US PAGE CSS
+    ====================================================================================*/
+    /*===================
+    		about us
+    ====================*/
+    .t-about{
+    	margin-top: 50px;
+    	display: block;
+    }
+    .t-about h3 {s
+    	margin-bottom: 0;
+    	font-size: 1.3em;
+    }
+    .t-about p {
+    	float: left;
+    	width: 65%;
+    	color: #bab9b9;
+    }
+    /*==========================
+    			intro
+    ===========================*/
+    .intro{
+    	border-top: solid black 4px;
+    	border-bottom: solid black 4px;
+    	border-style: dashed;
+    	
+    }
+    .intro article {
+    	margin-top: 45px;
+    	width: 30%;
+    	margin-right: 5%;
+    	float: left;
+    	margin-bottom: 50px;
+    }
+    .intro article:last-child{
+    	margin-right: 0;
+    }
+    .intro article p:last-child{
+    	margin-top: 20px;
+    }
+    .intro article :nth-child(even){
+    	color: #bab9b9;
+    }
+    /*===========================
+    			profiles
+    ===========================*/
+    .m-profile{
+    	display: block;
+    }
+    .profile{
+    	margin-top: 45px;
+    	width: 30%;
+    	margin-right: 5%;
+    	float: left;
+    	margin-bottom: 50px;
+    }
+    .profile:last-child{
+    	margin-right: 0;
+    }
+    .profile div {
+    	margin-top: 20px;
+    	padding: 0 7px;
+    }
+    .profile span{
+    	margin-left: px;
+    }
+    .profile h3 span{
+    	font-size: 0.8em;
+    	float: right;
+    	color: #c6c6c6;
+    	font-size: 0.8em;
+
+    }
+    .profile h3{
+    	margin-bottom: 0;
+    }
+    .profile h5{
+    	color: #bab9b9;
+    	font-size: 0.8em;
+    }
+    .profile img{
+    	width: 290px;
+    	
+    }
+    /*====================================================================================
+                                            porfolios PAGE CSS
+    ====================================================================================*/
+    /*======================
+                pj-main
+    =======================*/
+    /*=============================
+                pj-width1
+    ==============================*/
+    .pj-width1{
+        width: 635px;
+        float: left;
+    }
+    .pj-width1 div h3{
+        margin-bottom: 5px;
+    }
+    .div-p>p{
+        font-size: 0.8em;
+        width: 65%;
+        color:#bab9b9 ;
+    }
+    .pj::before{
+    content: " ";
+    display: block;
+    background: url(../image/pattern.png) left top repeat-x;
+    height: 5px;
+    margin-bottom: 1em;
+    }
+    .pj div a{
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .pj-article{
+        width: 30%;
+        margin-right: 5%;
+        margin-top: 15px;
+        float: left;
+        background: #fcf9f9;
+    }
+    .pj-article img{
+        width: 100%;
+        border-radius: 4px;
+    }
+    .pj-article h4{
+        font-size: 0.8em;
+        font-weight: bold;
+        margin-bottom: 3px;
+        color: black;
+        margin-top: 10px;
+
+    }
+    .pj-article h6{
+        font-size: 0.8em;
+        color:#bab9b9 ;
+
+    }
+    .pj-article p{
+        font-size: 0.7em;
+
+    }
+    .pj-la{
+        margin-right: 0;
+    }
+
+    
+    /*=============================
+                pj-width2
+    ==============================*/
+    .pj-width2{
+        
+        width: 255px;
+        float: right;
+    }
+    .pj-width2 h6{
+        font-size: 0.8em;
+        margin-top:45px;
+        margin-bottom:10px
+    }
+    .pj-width2 .pj-line::before{
+    content: " ";
+    display: block;
+    background: url(../image/pattern.png) left top repeat-x;
+    height: 5px;
+    margin-bottom: 0.6em;
+    }
+    .pj-width2 section p{
+        font-size: 0.8em;
+    }
+    .comments h5 span{
+        display: inline;
+        font-size: 0.8em;
+        color: #bab9b9;
+    }
+    .comments h5 {
+        margin-top: 0;
+        display: inline;
+        float: left;
+        margin-bottom: 20;
+    }
+    .pj-line .comments em{
+        font-weight: normal;
+        font-size: 0.7em; 
+    }
+    /*====================================================================================
+                                            porfolios PAGE CSS
+    ====================================================================================*/
+    /*=============================
+                pj-width1
+    ==============================*/
+    .bg-article{
+        margin-top: ;
+        border-top: solid black 3px;
+        display: block;
+        margin-bottom: 40px;
+    }
+    .bg-article img{
+        width: 100%;
+    }
+    .bg-article h3{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .date{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .date>div {
+        width: 25%;
+        float: left;
+    }
+    .date p {
+        width: 70%;
+        float: left;
+        margin-top: 0;
+        color: black;
+         font-size: 0.8em;
+
+    }
+    .date h4 {
+        margin-bottom: 0;
+    }
+    .date h6{
+        margin-top: 5px;
+    }
+     /*====================================================================================
+                                            porfolios PAGE CSS
+    ====================================================================================*/
+    /*=============================
+                contact us intro
+    ==============================*/
+    .cu-intro{
+        margin-top: 10px;
+        border-top: solid black 4px;
+    }
+    .cu-intro p{
+        font-size: 0.7em;
+    }
+    /*=============================
+                form
+    ==============================*/
+    .form{
+
+    }
+    .form-cu{
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #f4f4f4;
+        border: 0px;
+        padding: 10px 20px;
+        display: inline-block;
+
+    }
+    textarea{
+        background-color: #f4f4f4;
+        margin-top: 10px;
+        width: 450px;
+        height: 100px;
+        padding-left:20px ;
+        border: 0;
+        font-size: 1em;
+        resize: none;
+    }
+    input[type=submit]{
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    form > div{
+        margin-top: 10px;
+    }
+    textarea[type=placeholder]{
+        text-transform: uppercase;
+font-weight: bold;
+    }
+
+
+
