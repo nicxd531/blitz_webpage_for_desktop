@@ -1,6 +1,6 @@
 # Redirects from what the browser requests to what we serve
 
-blitzv-1.html /index.html
+index.html /index.html
 aboutus.html /aboutus
 projects.html /projects
 blogs.html /blogs
